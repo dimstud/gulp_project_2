@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Exo'; //Гарнитура шрифта
+    src: local(exo), url(../font/Exo/exo2.woff2);
+}
+
+@font-face {
+    font-family: 'Exo_bold'; //Гарнитура шрифта
+    src: local(exo), url(../../font/Exo/exo2black.woff2);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local(montserrat), url(../font/Montserrat/Montserrat-Medium.woff);
+};
