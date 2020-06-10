@@ -1,0 +1,48 @@
+.recent-post {
+   
+
+    &:not(:last-child):not(:first-child) {
+        border-bottom:1px solid #dde2e7;
+    }
+
+    &_link {
+        font-family: 'Montserrat_bold';
+			font-size: 14px;
+			color: #000000;
+			text-decoration: none;
+			text-transform: uppercase;
+            margin: 0;
+            margin-bottom: 10px;
+            padding-top: 27px;
+            padding-bottom: 27px;;
+            border: 1px solid #dde2e7;
+            border-radius: 4px;
+            display: block;
+            width: auto;
+            text-align: center;
+    }
+
+    &_card {
+        margin: 0;
+        margin-bottom: 30px;
+        text-align: center;
+
+        &:first-child {
+            margin-top: 30px;
+        }
+
+        &__img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border-color: white;
+            object-fit: cover;
+            
+        }
+
+        &__title {
+            margin-top: 28px;
+            font-size: 22px;
+        }
+    }
+}
