@@ -5,10 +5,25 @@
 
 @font-face {
     font-family: 'Exo_bold'; //Гарнитура шрифта
-    src: local(exo), url(../../font/Exo/exo2black.woff2);
+    src: local(exobold), url(../font/Exo/exo2black.woff2);
 }
 
 @font-face {
     font-family: 'Montserrat';
     src: local(montserrat), url(../font/Montserrat/Montserrat-Medium.woff);
+};
+
+@font-face {
+    font-family: 'Montserrat_bold';
+    src: local(montserratbold), url(../font/Montserrat/Montserrat-Bold.woff);
+};
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: local(montserratregular), url(../font/Montserrat/Montserrat-Regular.woff);
+};
+
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: local(playfair), url(../font/PlayfairDisplay/PlayfairDisplay-Regular.woff);
 };

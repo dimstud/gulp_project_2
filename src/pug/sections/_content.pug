@@ -1,1 +1,23 @@
 .content
+    .content-wrapper
+        include ./../mixins/_card.pug
+        section.conteaner
+            +card('Austin DIY sriracha polaroid sartorial la croix.', 'december 26, 2019 — 5 comments', 'bike.jpg', 'Austin DIY sriracha polaroid sartorial la croix. Air plant vexillologist tilde listicle try-hard tousled. Drinking vinegar flexitarian tumblr, chia aesthetic lyft yuccie. Vegan jean shorts swag, single-origin coffee beard quinoa street art activated charcoal chartreuse whatever. Ramps mlkshk hammock, disrupt butcher poutine ethical prism photo booth keffiyeh franzen edison bulb hoodie master cleanse. Gastropub tofu schlitz, coloring book 3 wolf moon ennui gochujang tousled meggings hot chicken listicle. YOLO plaid fanny pack jean shorts pop-up truffaut tousled kombucha salvia whatever fixie tacos swag man bun migas.')
+
+            .conteaner-bottom
+                .buton-link
+                    span.buton-link-1 1
+                    span.buton-link-2 2
+                    span.buton-link-3 3
+                .buton-link__post
+                    .buton-link__post-wrapper
+                        a(href="#").buton-link__post-href older posts
+                        .buton-link__post-img
+                            include ./../../img/angle-double-right.svg
+
+
+        aside.posts
+            .recent-post
+                a(href="#").recent-post_link
+            include ./../mixins/_recent-post.pug
+            +post-card('bike.png', 'Austin DIY sriracha polaroid sartorial la croix.', 'december 26, 2019 — 5 comments')

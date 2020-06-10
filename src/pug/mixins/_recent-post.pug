@@ -1,0 +1,7 @@
+mixin post-card(img, title, date)
+    .post-card
+        img(src="img/post/" + img , alt= title).post-card__img
+        .post-card__title
+        |#{title}
+        .post-card__date
+        |#{date}
