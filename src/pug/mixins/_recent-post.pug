@@ -1,7 +1,5 @@
 mixin post-card(img, title, date)
     .recent-post_card
         img(src="img/post/" + img , alt= title).recent-post_card__img
-        .recent-post_card__title
-        |#{title}
-        .recent-post_card__date
-        |#{date}
+        h4.recent-post_card__title #{title}
+        p.recent-post_card__date #{date}

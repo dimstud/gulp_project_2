@@ -113,6 +113,6 @@ gulp.task(
 		gulp.series( 
 			gulp.parallel('clean:build'),
 			gulp.parallel('scss', 'pug', 'copy:img', 'copy:js', 'copy:font'), 
-			gulp.parallel('server', 'watch'), 
+			gulp.parallel('server', 'watch') 
 			)
 	);
